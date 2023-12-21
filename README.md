@@ -31,6 +31,9 @@ Traffic sign recognition is crucial for autonomous vehicles and advanced driver-
     - (40, b'Roundabout mandatory') (41, b'End of no passing')
     - (42, b'End of no passing by vehicles over 3.5 metric tons')
 
+## Dataset
+The dataset used for this project is the Traffic Sign Recognition Benchmark (GTSRB). Due to its large size, the dataset cannot be included directly in this repository.
+
 ## LE-NET CNN
 - The network used is called Le-Net that was presented by Yann LeCun
 http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
