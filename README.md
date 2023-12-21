@@ -38,6 +38,13 @@ The dataset used for this project is the Traffic Sign Recognition Benchmark (GTS
 - The network used is called Le-Net that was presented by Yann LeCun
 http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
 
+## Data Preparation
+The dataset consists of images of traffic signs categorized into different classes. The following steps were taken to prepare the data:
+
+- Importing Data: The data was stored in pickle files (train.p, test.p, valid.p) and loaded using Python's pickle library.
+- Image Exploration: A brief exploration of the dataset was performed to visualize and verify the images and their corresponding labels.
+- Data Preprocessing: Steps included shuffling the data, converting images from color to grayscale, and normalizing pixel values.
+
 ## Model Training
 The model consists of the following layers: 
 
@@ -74,3 +81,7 @@ The model consists of the following layers:
 - STEP 6: FULLY CONNECTED LAYER
     - Layer 5: Fully Connected layer with Input = 84 and Output = 43
 
+## Model Evaluation
+The trained model was evaluated on the test dataset to measure its performance:
+
+Test Accuracy: Achieved an accuracy of approximately **85.71%** on the test set.
