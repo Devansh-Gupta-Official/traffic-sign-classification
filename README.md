@@ -1,4 +1,8 @@
 # Traffic Signs Recognition with Convolutional Neural Networks
+This project focuses on recognizing traffic signs using Convolutional Neural Networks (CNNs). The objective is to train a model capable of classifying various traffic signs commonly found on roads.
+
+## Introduction
+Traffic sign recognition is crucial for autonomous vehicles and advanced driver-assistance systems (ADAS). This project employs CNNs to classify and predict the type of traffic sign from images.
 
 ## Problem Statement
 - In this case study, you have been provided with images of traffic signs and the goal is to train a Deep Network to classify them
