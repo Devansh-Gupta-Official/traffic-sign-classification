@@ -83,5 +83,14 @@ The model consists of the following layers:
 
 ## Model Evaluation
 The trained model was evaluated on the test dataset to measure its performance:
-
 Test Accuracy: Achieved an accuracy of approximately **85.71%** on the test set.
+### Visualizing Results
+The model's predictions were visualized using heatmaps for the confusion matrix and a grid of actual vs. predicted traffic sign images from the test set.
+
+## Files
+traffic_signs_classification.ipynb: Jupyter Notebook containing the entire code and implementation.
+
+## Instructions for Usage
+1. Clone the repository.
+2. Download the GTSRB dataset.
+3. Run the notebook traffic_signs_classification.ipynb in an environment with necessary dependencies.
